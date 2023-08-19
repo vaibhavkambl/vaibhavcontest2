@@ -1,0 +1,159 @@
+/*google font import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+/* unversal elements*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+body {
+    background-color: #b8a4a4;
+}
+
+
+/* Navigation Bar */
+
+#nav-container {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 80px;
+    justify-content: space-between;
+}
+
+#nav-img-container {
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+#nav-img {
+    width: 60px;
+    height: 60px;
+}
+
+#nav-img-text {
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 15px;
+}
+
+#nav-elements>ul>li,
+#nav-elements>ul>li>a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#nav-elements>ul>li>a:hover {
+    color: pink;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#nav-elements {
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    align-self: auto;
+}
+
+
+/* Books */
+
+.books {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.table-main {
+    display: inline-block;
+    width: 75%;
+    padding: 18px;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid grey;
+}
+
+.heading {
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.td-1 {
+    width: 15vw;
+    padding: 5px;
+}
+
+.td-2 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.td-3 {
+    width: 25vw;
+    padding: 5px;
+}
+
+.td-4 {
+    width: 15vw;
+    padding: 5px;
+}
+
+.td-5 {
+    width: 20vw;
+    padding: 5px;
+}
+
+.t {
+    padding-inline: 20px;
+    padding-bottom: 10px;
+}
+
+th {
+    text-align: left;
+    padding-left: 5px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+}
+
+#regbtn {
+    color: white;
+    background-color: black;
+    margin-top: 25px;
+    height: 30px;
+}
+
+.reg {
+    height: 100%;
+    padding-bottom: 50px;
+}
